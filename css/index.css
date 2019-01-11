@@ -192,6 +192,11 @@ header nav a {
     padding-right: 0;
 }
 
+.about-top {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black;
+}
+
 footer {
     width: 100%;
     background: black;
