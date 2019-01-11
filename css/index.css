@@ -66,6 +66,32 @@ p {
     line-height: 1.4;
 }
 
+.help {
+    border: 1px solid red;
+}
+
+header {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+header nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.jumbo {
+    width: 800px;
+    margin: 20px auto;
+}
+
 .container {
     width: 800px;
     margin: 0 auto;
