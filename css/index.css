@@ -231,6 +231,52 @@ header nav a {
     padding: 30px 20px;
 }
 
+.contact-top {
+    padding: 0 20px 20px;
+    border-bottom: 1px dashed black;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 20px;
+    padding: 0 100px;
+}
+
+.contact-form input {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px; 
+    border: 1px dashed black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    padding: 0 10px;
+}
+
+.contact-form textarea {
+    width: 100%;
+    border: 1px dashed black;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.form-buttons {
+    margin: 0 auto;
+}
+
+.form-buttons button {
+    height: 30px;
+    width: 150px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 1rem;
+    color: white;
+    background-color: black;
+    border: 1px dashed white;
+}
+
 footer {
     width: 100%;
     background: black;
